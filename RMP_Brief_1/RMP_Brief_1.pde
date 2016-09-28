@@ -5,7 +5,6 @@
 
 void setup() {
   size(800, 800);
-  background (127.5);
   smooth();
    for(int c =0; c< 20; c++){
     float[] circle = new float [3];
