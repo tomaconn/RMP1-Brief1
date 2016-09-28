@@ -18,6 +18,7 @@ Circle(){
 
 void display(){
   ellipse(xPos, yPos, circDiam, circDiam);
+  fill(circRed, circGreen, circBlue);
   }
 
 }
