@@ -1,8 +1,11 @@
 
   float[][] allCircles = new float[20][];
-  float circRed;
-  float circGreen;
-  float circBlue;
+  float circRed = random(255);
+  float circGreen = random(255);
+  float circBlue = random(255);
+  color [] circolor = new color[20];
+  
+  color bcolour = color(random(255),random(255),random(255));
 
 void setup() {
   size(800, 800);
@@ -13,7 +16,7 @@ void setup() {
     circle[0] = random(800);
     circle[1] = random(800);
     circle[2] = random(10, 50);
-    
+    circolor[c]  = color(random(255),random(255),random(255));
     allCircles[c] = circle;
   }
   
@@ -21,9 +24,9 @@ void setup() {
 }
 
 void draw(){
-  background(127.5);
-
+  background(bcolour);
   for(int i=0; i<20; i++){
+      fill(circolor[i]);
   ellipse(allCircles[i][0], allCircles[i][1], allCircles[i][2], allCircles[i][2]);
   }
 }
