@@ -2,17 +2,18 @@ class Circle{
   float xPos;
   float yPos;
   float circDiam;
-  int circRed;
-  int circGreen;
-  int circBlue;
+  float circRed;
+  float circGreen;
+  float circBlue;
 
 Circle(){
-  xPos = 200;
-  yPos = 200;
-  circDiam = 100;
-  circRed = 255;
-  circGreen = 0;
-  circBlue = 0;
+  xPos = random(800);
+  yPos = random(800);
+  circDiam = random(10, 50);
+  circRed = random(255);
+  circGreen = random(255);
+  circBlue = random(255);
+  
   
   }
 
