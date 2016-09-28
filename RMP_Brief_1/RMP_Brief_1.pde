@@ -1,8 +1,4 @@
-
   float[][] allCircles = new float[20][];
-  float circRed = random(255);
-  float circGreen = random(255);
-  float circBlue = random(255);
   color [] circolor = new color[20];
   
   color bcolour = color(random(255),random(255),random(255));
@@ -19,8 +15,6 @@ void setup() {
     circolor[c]  = color(random(255),random(255),random(255));
     allCircles[c] = circle;
   }
-  
-
 }
 
 void draw(){
