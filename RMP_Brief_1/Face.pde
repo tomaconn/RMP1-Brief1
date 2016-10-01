@@ -4,7 +4,14 @@ class Face{
     paint(0,0);
   }
 
-void paint(int xPos, int yPos){
-  pushMatrix();
-  translate(xPos, yPos);
-  
+  void paint(int xPos, int yPos){
+    pushMatrix();
+    translate(xPos, yPos);
+    
+    fill(255,204,0);
+    
+    ellipse(200,200,100,100);
+    
+    popMatrix();
+  }
+}

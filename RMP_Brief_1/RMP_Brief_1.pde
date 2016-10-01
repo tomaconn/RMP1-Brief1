@@ -1,7 +1,7 @@
   float[][] allCircles = new float[20][];
   color [] circolor = new color[20];
   color bcolor = color(random(255),random(255),random(255));
-
+  Face myFace = new Face();
 void setup() {
   size(800, 800);
   smooth();
@@ -20,5 +20,7 @@ void draw(){
   for(int i=0; i<20; i++){
       fill(circolor[i]);
   ellipse(allCircles[i][0], allCircles[i][1], allCircles[i][2], allCircles[i][2]);
+  myFace.paint();
+  noStroke();
   }
 }
