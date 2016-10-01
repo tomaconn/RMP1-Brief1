@@ -12,9 +12,9 @@ class Face{
     
     ellipse(mouseX+50,mouseY,100,100); //Forehead
     
-    ellipse(mouseX+50,mouseY+100,100,100); //Chin
+    ellipse(mouseX+50,mouseY+70,100,100); //Chin
     
-    rect(mouseX,mouseY,100,100); //Face
+    rect(mouseX,mouseY,100,70); //Face
     
     fill(0);
     rect(mouseX, mouseY-10, 100, 25); //Goggle Strap Rectangle
