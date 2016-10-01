@@ -31,6 +31,15 @@ class Face{
     fill(255, 0, 0);
     ellipse(mouseX+50, mouseY, 2, 2); //Pupil Ellipse
     
+    fill(0);
+    rect(mouseX+15, mouseY+50, 70, 5); //Mouth Rectangle
+    
+    fill(255, 0, 0);
+    rect(mouseX+45, mouseY+55, 30, 20); //Tongue Top rectangle
+    
+    fill(255, 0, 0);
+    ellipse(mouseX+60,mouseY+75, 30, 30); //Tongue Bottom Ellipse
+    
     popMatrix();
     
   }
