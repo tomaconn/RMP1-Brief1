@@ -12,9 +12,9 @@ class Face{
     
     ellipse(mouseX+50,mouseY,100,100); //Forehead
     
-    ellipse(mouseX+50,mouseY+100,100,100); //Face
+    ellipse(mouseX+50,mouseY+100,100,100); //Chin
     
-    rect(mouseX,mouseY,100,100); //Chin
+    rect(mouseX,mouseY,100,100); //Face
     
     fill(0);
     rect(mouseX, mouseY-10, 100, 25); //Goggle Strap Rectangle
@@ -39,6 +39,9 @@ class Face{
     
     fill(255, 0, 0);
     ellipse(mouseX+60,mouseY+75, 30, 30); //Tongue Bottom Ellipse
+    
+    fill(0);
+    rect(mouseX+60, mouseY+55, 2, 20);
     
     popMatrix();
     
