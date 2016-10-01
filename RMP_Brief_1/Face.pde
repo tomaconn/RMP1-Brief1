@@ -10,9 +10,9 @@ class Face{
     
     fill(255,204,0);
     
-    ellipse(mouseX,mouseY,100,100);
-    ellipse(mouseX,mouseY,100,100);
-    rect(mouseX,mouseY,100,100);
+    ellipse(mouseX+50,mouseY,100,100); //Forehead
+    ellipse(mouseX+50,mouseY+100,100,100); //Face
+    rect(mouseX,mouseY,100,100);//Chin
     
     popMatrix();
   }
