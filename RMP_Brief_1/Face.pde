@@ -10,7 +10,9 @@ class Face{
     
     fill(255,204,0);
     
-    ellipse(200,200,100,100);
+    ellipse(400,400,100,100);
+    ellipse(400,500,100,100);
+    rect(350,400,100,100);
     
     popMatrix();
   }
