@@ -14,6 +14,14 @@ class Face{
     ellipse(mouseX+50,mouseY+100,100,100); //Face
     rect(mouseX,mouseY,100,100);//Chin
     
+    fill(0);
+    ellipse(mouseX+50, mouseY, 50, 50);
+    
+    fill(255);
+    ellipse(mouseX+50, mouseY, 40, 40);
+    
+    fill(0);
+    ellipse(mouseX+50, mouseY, 10, 10);
     popMatrix();
   }
 }
