@@ -15,13 +15,13 @@ class Face{
     rect(mouseX,mouseY,100,100);//Chin
     
     fill(0);
-    ellipse(mouseX+50, mouseY, 50, 50);
+    ellipse(mouseX+50, mouseY, 50, 50); //Stroke Ellipse
     
     fill(255);
-    ellipse(mouseX+50, mouseY, 40, 40);
+    ellipse(mouseX+50, mouseY, 40, 40); //Scalera Ellipse
     
     fill(0);
-    ellipse(mouseX+50, mouseY, 10, 10);
+    ellipse(mouseX+50, mouseY, 10, 10); //Iris Ellipse
     popMatrix();
   }
 }
