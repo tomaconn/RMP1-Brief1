@@ -8,8 +8,8 @@ class Face{
     pushMatrix();
     translate(xPos-50, yPos-50); // x and y Position of cursor
     
-    fill(255,204,0);
     
+    fill(255,204,0);
     ellipse(mouseX+50,mouseY,100,100); //Forehead
     
     ellipse(mouseX+50,mouseY+70,100,100); //Chin

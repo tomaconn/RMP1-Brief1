@@ -22,5 +22,5 @@ void draw(){
   ellipse(allCircles[i][0], allCircles[i][1], allCircles[i][2], allCircles[i][2]);
   myFace.paint();
   noStroke();
-  }
+  } 
 }
