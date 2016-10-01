@@ -6,7 +6,7 @@ class Face{
 
   void paint(int xPos, int yPos){
     pushMatrix();
-    translate(xPos, yPos);
+    translate(xPos-50, yPos-50); // x and y Position of cursor
     
     fill(255,204,0);
     
