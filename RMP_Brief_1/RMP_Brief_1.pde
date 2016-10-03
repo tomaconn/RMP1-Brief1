@@ -29,13 +29,13 @@ void draw(){
        allCircles[m][0] += 10;
        textSize(30);
        text("GOING RIGHT", 580, 400); 
-       fill(255, 0, 0);
+       fill(0, 255, 0);
     }
     if(keyCode == LEFT && keyPressed){ //Moving array of circles to the left
       allCircles[m][0] -=10;
       textSize(30);
        text("GOING LEFT", 40, 400); 
-       fill(255, 0, 0);
+       fill(0, 255, 0);
     }
     if(keyCode == UP && keyPressed){ //Moving array of circles up
       allCircles[m][1] -=10;
@@ -53,13 +53,13 @@ void draw(){
       allCircles[m][2] +=1;
       textSize(50);
        text("GROW", 300, 400); 
-       fill(255, 0, 0);
+       fill(0, 0, 255);
     }
     if(keyCode == CONTROL && keyPressed){ //Decrease the size of the circles with the CTRL key
       allCircles[m][2] -=1;
       textSize(50);
        text("SHRINK", 300, 400); 
-       fill(255, 0, 0);
+       fill(0, 0, 255);
     }
   }
 }
