@@ -35,13 +35,13 @@ class Face{
     rect(mouseX+15, mouseY+50, 70, 5); //Mouth Rectangle
     
     fill(255, 0, 0);
-    rect(mouseX+45, mouseY+55, 30, 20); //Tongue Top rectangle
+    rect(mouseX+45, mouseY+55, 30, 20); //Tongue Top Rectangle
     
     fill(255, 0, 0);
     ellipse(mouseX+60,mouseY+75, 30, 30); //Tongue Bottom Ellipse
     
     fill(0);
-    rect(mouseX+60, mouseY+55, 2, 20);
+    rect(mouseX+60, mouseY+55, 2, 20); //Tongue Line Rectangle
     
     popMatrix();
     
