@@ -24,8 +24,17 @@ void draw(){
   noStroke();
   } 
     for (int m =0; m<20; m++){
-      if (keyCode == RIGHT && keyPressed){ //Moving array of circles to thr right
+      if (keyCode == RIGHT && keyPressed){ //Moving array of circles to the right
        allCircles[m][0] += 10;
+    }
+    if(keyCode == LEFT && keyPressed){ //Moving array of circles to the left
+      allCircles[m][0] -=10;
+    }
+    if(keyCode == UP && keyPressed){ //Moving array of circles up
+      allCircles[m][1] -=10;
+    }
+    if(keyCode == DOWN && keyPressed){ //Moving the array of circles down
+      allCircles[m][1] +=10;
     }
   }
 }
