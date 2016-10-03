@@ -27,21 +27,39 @@ void draw(){
     for (int m =0; m<20; m++){
       if (keyCode == RIGHT && keyPressed){ //Moving array of circles to the right
        allCircles[m][0] += 10;
+       textSize(30);
+       text("GOING RIGHT", 580, 400); 
+       fill(255, 0, 0);
     }
     if(keyCode == LEFT && keyPressed){ //Moving array of circles to the left
       allCircles[m][0] -=10;
+      textSize(30);
+       text("GOING LEFT", 40, 400); 
+       fill(255, 0, 0);
     }
     if(keyCode == UP && keyPressed){ //Moving array of circles up
       allCircles[m][1] -=10;
+      textSize(50);
+       text("GOING UP", 250, 100); 
+       fill(255, 0, 0);
     }
     if(keyCode == DOWN && keyPressed){ //Moving the array of circles down
       allCircles[m][1] +=10;
+      textSize(50);
+       text("GOING DOWN", 250, 700); 
+       fill(255, 0, 0);
     }
     if(keyCode == ALT && keyPressed){ // Increase the size of the circles with ALT key
       allCircles[m][2] +=1;
+      textSize(50);
+       text("GROW", 300, 400); 
+       fill(255, 0, 0);
     }
-    if(keyCode == CONTROL && keyPressed){ //Decrease the size of the circles with CTRL key
+    if(keyCode == CONTROL && keyPressed){ //Decrease the size of the circles with the CTRL key
       allCircles[m][2] -=1;
+      textSize(50);
+       text("SHRINK", 300, 400); 
+       fill(255, 0, 0);
     }
   }
 }
