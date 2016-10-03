@@ -23,4 +23,9 @@ void draw(){
   myFace.paint();
   noStroke();
   } 
+    for (int m =0; m<20; m++){
+      if (keyCode == RIGHT && keyPressed){ //Moving array of circles to thr right
+       allCircles[m][0] += 10;
+    }
+  }
 }
