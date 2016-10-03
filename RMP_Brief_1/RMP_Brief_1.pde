@@ -37,5 +37,11 @@ void draw(){
     if(keyCode == DOWN && keyPressed){ //Moving the array of circles down
       allCircles[m][1] +=10;
     }
+    if(keyCode == ALT && keyPressed){ // Increase the size of the circles with ALT key
+      allCircles[m][2] +=1;
+    }
+    if(keyCode == CONTROL && keyPressed){ //Decrease the size of the circles with CTRL key
+      allCircles[m][2] -=1;
+    }
   }
 }
