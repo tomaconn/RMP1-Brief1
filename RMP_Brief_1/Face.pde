@@ -10,6 +10,11 @@ class Face{
     
     
     fill(255,204,0);
+    
+      if(mousePressed){ //Clicking on face changes colour from yellow to green
+      fill(0,255,0);
+    }
+    
     ellipse(mouseX+50,mouseY,100,100); //Forehead
     
     ellipse(mouseX+50,mouseY+70,100,100); //Chin
