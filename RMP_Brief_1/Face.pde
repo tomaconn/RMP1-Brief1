@@ -12,10 +12,14 @@ class Face{
     
       if(mouseButton == LEFT){ //Left click changes colour from yellow to green
       fill(0,255,0);
-    }
+      }
     
       if(mouseButton == RIGHT){ //Right click changes colour of face to blue
         fill(0,0,255);
+      }
+      
+      if(mouseButton == CENTER){ //Center click changes colour of face to red
+        fill(255,0,0);
       }
     
     ellipse(mouseX+50,mouseY,100,100); //Forehead
