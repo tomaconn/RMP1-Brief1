@@ -21,6 +21,7 @@ void draw(){
   for(int i=0; i<20; i++){ //Looping through array so circles are placed on sketch
       fill(circolor[i]);
   ellipse(allCircles[i][0], allCircles[i][1], allCircles[i][2], allCircles[i][2]);
+  
   myFace.paint(); //Adding an instance of the class Face to the sketch
   noStroke();
   } 

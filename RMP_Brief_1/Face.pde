@@ -8,12 +8,15 @@ class Face{
     pushMatrix();
     translate(xPos-50, yPos-50); // x and y Position of cursor
     
-    
     fill(255,204,0);
     
-      if(mousePressed){ //Clicking on face changes colour from yellow to green
+      if(mouseButton == LEFT){ //Left click changes colour from yellow to green
       fill(0,255,0);
     }
+    
+      if(mouseButton == RIGHT){ //Right click changes colour of face to blue
+        fill(0,0,255);
+      }
     
     ellipse(mouseX+50,mouseY,100,100); //Forehead
     
