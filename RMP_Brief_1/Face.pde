@@ -51,7 +51,6 @@ class Face{
     fill(0);
     rect(mouseX+60, mouseY+55, 2, 20); //Tongue Line Rectangle
     
-    popMatrix();
-    
+    popMatrix();    
   }
 }
